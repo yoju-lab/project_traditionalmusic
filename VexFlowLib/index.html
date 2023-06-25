@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>악보 제작 앱</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vexflow/1.2.93/vexflow-min.js"></script>
+    <script src="main.js" defer></script>
+    <style>
+        #sheet {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            margin: 0 auto;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sheet"></div>
+    <select id="note-selector">
+        <option value="c/4">C</option>
+        <option value="d/4">D</option>
+        <option value="e/4">E</option>
+        <option value="f/4">F</option>
+        <!-- ... -->
+    </select>
+    <button id="add-note-btn">Add note</button>
+    <button id="save-btn">Save Sheet</button>
+    <a id="download-link" download="sheet.musicxml" type="application/xml"></a>
+    <button id="play-btn">Play</button>
+</body>
+
+</html>

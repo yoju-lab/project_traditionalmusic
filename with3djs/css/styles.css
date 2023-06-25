@@ -1,0 +1,18 @@
+#score-container {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.staff-line {
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+.note {
+    fill: steelblue;
+}
+
+.note:hover {
+    fill: red;
+}

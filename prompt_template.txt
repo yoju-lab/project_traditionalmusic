@@ -1,0 +1,11 @@
+악보 작성 웹앱 작성
+- d3js 사용
+- 오선지 사용 입력
+- javascript는 외부 파일로 작성 
+
+이어서 작성
+
+아래 에러 발생
+Uncaught TypeError: d3.mouse is not a function
+
+html에서 style 부분 외부 파일로 저장
